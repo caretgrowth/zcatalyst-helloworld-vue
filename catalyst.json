@@ -1,0 +1,12 @@
+{
+  "client": {
+    "source": "client/app/dist",
+    "ignore": [],
+    "scripts": {
+      "packageJson": "cd client && cp client-package.json app/dist/",
+      "build": "cd client/app && yarn install && yarn build",
+      "preserve": "catalyst run client:build && catalyst run client:packageJson",
+      "predeploy": "catalyst run client:build && catalyst run client:packageJson"
+    }
+  }
+}

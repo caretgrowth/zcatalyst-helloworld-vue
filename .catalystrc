@@ -1,0 +1,35 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": 5276000000042001,
+      "name": "helloWorld",
+      "domain": {
+        "id": 10023966865,
+        "name": "helloworld-718716905.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "718716905",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ],
+  "migration": {
+    "1.0.2": {
+      "completed": true
+    },
+    "last_success": "1.0.2"
+  }
+}
