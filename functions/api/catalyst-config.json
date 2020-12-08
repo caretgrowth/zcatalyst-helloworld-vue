@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "api",
+		"stack": "node10",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

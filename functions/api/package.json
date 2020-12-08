@@ -1,0 +1,16 @@
+{
+	"name": "hello_world_advanced",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "mike@caretgrowth.com",
+	"scripts": {
+		"dev": "nodemon app.js"
+	},
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest",
+		"zcrmsdk": "^0.0.20"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
+}
